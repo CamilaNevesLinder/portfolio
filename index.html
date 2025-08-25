@@ -2,39 +2,59 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
 
   <body>
-    <header></header>
-
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
-          Meu primeiro projeto usando
-          <strong class="titulo-destaque">html e css!</strong>
+          primeiro projeto usando
+          <strong class="titulo-destaque">HTML e CSS ! </strong>
         </h1>
-
         <p class="apresentacao__conteudo__texto">
-          oi, meu nome é camila, eu estou estudando programação e esse é o meu
-          primeiro projeto do curso de html e css
+          Olá, sou Camila Neves Linder, e esse é meu primeiro projeto utilizando
+          html e css, desde que comecei a estudar programação com a alura!
         </p>
 
         <div class="apresentacao__links">
-          <a class="apresentacao__links__link" https://instagram.com/camila.nevees">instagram</a>
-          <a class="apresentacao__links__link" https://github.com/CamilaNevesLinder">github</a>
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+
+          <a
+            class="apresentacao__links__link"
+            href="https://github.com/CamilaNevesLinder"
+          >
+            <img class="icon" src="./assets/github-sign.png" />
+            Github</a
+          >
+
+          <a
+            class="apresentacao__links__link"
+            href="https://instagram.com/camila.nevees"
+          >
+            <img class="icon" src="./assets/instagram.png" />
+            instagram</a
+          >
         </div>
       </section>
 
-      <img 
-        src="20250511_160021.jpg"
-        alt="foto da camila"
-    />
-  
+      <img
+        class="profile-image"
+        src="./assets/imagem.png"
+        alt="Foto da camila"
+      />
     </main>
-
-    <footer></footer>
+    <footer class="rodape">
+      <p>Desenvolvido por Camila Neves Linder.</p>
+    </footer>
   </body>
 </html>
