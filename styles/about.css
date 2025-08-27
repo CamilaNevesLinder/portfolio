@@ -76,6 +76,12 @@ footer {
   font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__conteudo__texto__forte {
+  font-size: 20px;
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-principal);
+}
+
 .rodape {
   color: var(--cor-terciaria);
   background-color: var(--cor-secundaria);
@@ -88,7 +94,7 @@ footer {
 
 .profile-image {
   height: 350px;
-  width: 300px;
+  width: 30%;
   border-radius: 16px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
