@@ -38,7 +38,7 @@ footer {
 }
 .cabecalho__menu__link {
   font-family: var(--fonte-secundaria);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--cor-secundaria);
   text-decoration: none;
@@ -48,23 +48,24 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 5.125rem;
 }
 .apresentacao__conteudo {
-  width: 615px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-  font-size: 36px;
+  font-size: 2, 25rem;
   font-family: var(--fonte-principal);
 }
 .titulo-destaque {
   color: var(--cor-secundaria);
 }
 .apresentacao__conteudo__texto {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: var(--fonte-secundaria);
 }
 
@@ -73,23 +74,23 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 2rem;
 }
 .apresentacao__links__subtitulo {
   font-family: var(--fonte-principal);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
   background-color: var(--cor-secundaria);
   display: flex;
   justify-content: center;
   gap: 16px;
   border: 2px solid var(--cor-borda);
-  width: 378px;
+  width: 50%;
   text-align: center;
   border-radius: 8px;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 600;
   padding: 21.5px 0;
   text-decoration: none;
@@ -102,20 +103,38 @@ footer {
 .rodape {
   color: var(--cor-terciaria);
   background-color: var(--cor-secundaria);
-  padding: 15px;
+  padding: 0.5rem;
   text-align: center;
   font-family: var(--fonte-secundaria);
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .profile-image {
   height: 350px;
-  width: 300px;
+  width: 40%;
   border-radius: 16px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .icon {
   height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
 }
