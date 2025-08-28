@@ -175,4 +175,8 @@ footer {
     bottom: 0;
     padding: 1rem;
   }
+
+  .rodape {
+    font-size: 1rem;
+  }
 }

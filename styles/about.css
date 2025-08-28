@@ -116,3 +116,35 @@ footer {
     width: auto;
   }
 }
+
+@media (max-width: 450px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
+
+  .profile-image {
+    height: 18rem;
+    width: 16rem;
+  }
+
+  footer {
+    bottom: 0;
+    padding: 1rem;
+  }
+
+  .rodape {
+    font-size: 1rem;
+  }
+}
