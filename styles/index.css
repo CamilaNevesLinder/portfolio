@@ -24,8 +24,9 @@ body {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  text-align: center;
+  padding: 15px;
+  margin: 0%;
   width: 100%;
 }
 
@@ -136,5 +137,42 @@ footer {
   }
   .apresentacao__conteudo {
     width: auto;
+  }
+
+  .profile-image {
+    height: 20rem;
+    width: 20%;
+  }
+  footer {
+    bottom: 0;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .cabecalho {
+    padding: 10%;
+  }
+
+  .cabecalho__menu {
+    justify-content: center;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo {
+    width: auto;
+  }
+
+  .profile-image {
+    height: 18rem;
+    width: 16rem;
+  }
+
+  footer {
+    bottom: 0;
+    padding: 1rem;
   }
 }
